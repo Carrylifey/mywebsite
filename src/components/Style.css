@@ -1,0 +1,86 @@
+/* CSS for Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .navbar-logo {
+    margin-left: 30px;
+  }
+  
+  .navbar-logo img {
+    max-height: 40px;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #020202;
+    font-weight: lighter;
+  }
+  .navbar-buttons {
+    margin-right: 40px;
+  }
+  
+  .navbar-buttons button {
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .main-content{
+    background-color: #e2dbfd;
+    height: 20rem;
+    border-radius: 2%;
+  }
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-side h2 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .left-side h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .right-side {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .right-side img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
+  
+  
